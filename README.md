@@ -1,0 +1,1 @@
+# puppet_esentials_control_repo
