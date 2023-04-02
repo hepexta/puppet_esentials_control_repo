@@ -3,8 +3,8 @@ class big_ugly_mess {
   $puppet_base_path = 'puppet:///big_ugly_mess'
   $user_data = {
     'bob' => 'bob_wide_web',
-	'carol' => 'unicorn_central',
-	'alice' => 'alice',
+    'carol' => 'unicorn_central',
+    'alice' => 'alice',
   }.each | $username, $maindir |{
     user { $username:
       ensure     => present,
