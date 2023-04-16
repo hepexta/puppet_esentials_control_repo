@@ -8,3 +8,7 @@ mod 'puppetlabs-java', '9.0.1'
 mod 'puppet-logstash', '7.0.0'
 mod 'puppet-elk',
   :git => 'https://github.com/hepexta/puppet-elk.git'
+mod 'puppetlabs-puppetdb', '7.12.0'
+mod 'puppetlabs-inifile', '6.0.0'
+mod 'puppetlabs-postgresql', '8.2.1'
+mod 'puppetlabs-firewall', '5.0.0'
