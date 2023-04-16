@@ -1,7 +1,4 @@
 class profile::r10k {
-  class {'r10k':
-    remote => 'https://github.com/hepexta/puppet_esentials_control_repo',
-  }
   class {'r10k::webhook::config':
     use_mcollective => false,
     enable_ssl      => false,
